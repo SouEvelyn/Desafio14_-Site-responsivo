@@ -1,0 +1,54 @@
+bory{
+    background-color: #001011;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background-color: rgb(135, 194, 241);
+    margin: auto;
+    font-size: 15px;
+    width: 80%;
+    border: 2px solid black;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    margin: 20px;
+  
+}
+
+.box h1{
+    color:#093A3E
+}
+
+@media screen and (max-width: 1024px){
+    .main{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: none;
+    }
+
+    .main{
+        width: auto;
+        font-size: 14px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+}
+
+
+.footer{
+    border: 2px solid black;
+    text-align: center;
+}
